@@ -1,0 +1,13 @@
+*** Begin Patch
+*** Add File: example.py
++def foo(x):
++    # TODO: optimize
++    if x > 0:
++        for i in range(10):
++            print(i)
++    else:
++        print("nope")
++
++def bar(y):
++    return y * 2
+*** End Patch
